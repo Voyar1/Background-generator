@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+body {
+  top: 15%;
+  text-align: center;
+  background: linear-gradient(to right, red, yellow);
+  font-family: "Bebas Neue", cursive;
+}
+
+h1 {
+  font-size: 5rem;
+  letter-spacing: 0.1rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+
+.random {
+  border-radius: 16px;
+  padding: 0.5rem 1rem;
+  background: black;
+  color: #fff;
+  cursor: pointer;
+  transition: transform, 0.2s;
+  font-size: 1rem;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.random:hover {
+  transform: translateY(-0.1rem);
+}
+
+.random:active {
+  transform: translateY(0.1rem);
+  box-shadow: rgb(38, 57, 77) 0px 15px 25px -5px;
+}
